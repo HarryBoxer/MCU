@@ -1,0 +1,468 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/harryboxer/ontologies/2019/7/MCUsuperheros"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/harryboxer/ontologies/2019/7/MCUsuperheros">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#MCUMovie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MCUSuperheros"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Power"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#firstIntroduction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPower"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#actorname"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isAlive"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#originOfPower"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#powerDetail"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#realname"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#year"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ant-Man1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ant-ManAndTheWasp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AvengersAgeOfUltron"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AvengersEndgame"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AvengersInfinityWar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BlackPanther1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CaptainAmerica"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CaptainAmericaCivilWar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CaptainAmericaTheFirstAvenger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CaptainAmericaTheWinterSoldier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CaptainMarvel1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DoctorStrange"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dr.Strange"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gamora"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Groot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GuardianOFTheGalaxyVol.2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GuardianOfTheGalaxyVol.1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hulk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IronMan1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IronMan2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IronMan3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mantis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nabula"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rocket"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpiderManForFromHome"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpiderManHomeComing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TheAvengers1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TheIncredibleHulk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TheWasp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thor1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ThorRagnarok"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ThorTheDarkWorld"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Valkyrie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vision"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/harryboxer/ontologies/2019/7/country#Thailand"/>
+    </Declaration>
+    <DisjointClasses>
+        <Class IRI="#MCUSuperheros"/>
+        <Class IRI="#Power"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#MCUMovie"/>
+        <NamedIndividual IRI="#Ant-Man1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovie"/>
+        <NamedIndividual IRI="#Ant-ManAndTheWasp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovie"/>
+        <NamedIndividual IRI="#AvengersAgeOfUltron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovie"/>
+        <NamedIndividual IRI="#AvengersEndgame"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovie"/>
+        <NamedIndividual IRI="#AvengersInfinityWar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovie"/>
+        <NamedIndividual IRI="#BlackPanther1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheros"/>
+        <NamedIndividual IRI="#CaptainAmerica"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovie"/>
+        <NamedIndividual IRI="#CaptainAmericaCivilWar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovie"/>
+        <NamedIndividual IRI="#CaptainAmericaTheFirstAvenger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovie"/>
+        <NamedIndividual IRI="#CaptainAmericaTheWinterSoldier"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovie"/>
+        <NamedIndividual IRI="#CaptainMarvel1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovie"/>
+        <NamedIndividual IRI="#DoctorStrange"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheros"/>
+        <NamedIndividual IRI="#Dr.Strange"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheros"/>
+        <NamedIndividual IRI="#Gamora"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheros"/>
+        <NamedIndividual IRI="#Groot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovie"/>
+        <NamedIndividual IRI="#GuardianOFTheGalaxyVol.2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovie"/>
+        <NamedIndividual IRI="#GuardianOfTheGalaxyVol.1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheros"/>
+        <NamedIndividual IRI="#Hulk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovie"/>
+        <NamedIndividual IRI="#IronMan1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovie"/>
+        <NamedIndividual IRI="#IronMan2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovie"/>
+        <NamedIndividual IRI="#IronMan3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheros"/>
+        <NamedIndividual IRI="#Mantis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheros"/>
+        <NamedIndividual IRI="#Nabula"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheros"/>
+        <NamedIndividual IRI="#Rocket"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovie"/>
+        <NamedIndividual IRI="#SpiderManForFromHome"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovie"/>
+        <NamedIndividual IRI="#SpiderManHomeComing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovie"/>
+        <NamedIndividual IRI="#TheAvengers1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovie"/>
+        <NamedIndividual IRI="#TheIncredibleHulk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheros"/>
+        <NamedIndividual IRI="#TheWasp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovie"/>
+        <NamedIndividual IRI="#Thor1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovie"/>
+        <NamedIndividual IRI="#ThorRagnarok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUMovie"/>
+        <NamedIndividual IRI="#ThorTheDarkWorld"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheros"/>
+        <NamedIndividual IRI="#Valkyrie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheros"/>
+        <NamedIndividual IRI="#Vision"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#firstIntroduction"/>
+        <NamedIndividual IRI="#CaptainAmerica"/>
+        <NamedIndividual IRI="#CaptainAmerica"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#CaptainAmerica"/>
+        <NamedIndividual IRI="#CaptainAmerica"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#CaptainAmerica"/>
+        <NamedIndividual IRI="#CaptainAmericaCivilWar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#CaptainAmerica"/>
+        <NamedIndividual IRI="#CaptainAmericaTheFirstAvenger"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#CaptainAmerica"/>
+        <NamedIndividual IRI="#CaptainAmericaTheWinterSoldier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#firstIntroduction"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/harryboxer/ontologies/2019/7/country#Thailand"/>
+        <NamedIndividual IRI="#Ant-Man1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#firstIntroduction"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/harryboxer/ontologies/2019/7/country#Thailand"/>
+        <NamedIndividual IRI="#Ant-ManAndTheWasp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#firstIntroduction"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/harryboxer/ontologies/2019/7/country#Thailand"/>
+        <NamedIndividual IRI="#CaptainAmericaCivilWar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#firstIntroduction"/>
+        <Class IRI="#MCUSuperheros"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPower"/>
+        <Class IRI="#MCUSuperheros"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <Class IRI="#MCUSuperheros"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#firstIntroduction"/>
+        <Class IRI="#MCUMovie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPower"/>
+        <Class IRI="#MCUMovie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <Class IRI="#MCUMovie"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#actorname"/>
+        <Class IRI="#MCUSuperheros"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isAlive"/>
+        <Class IRI="#MCUSuperheros"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#originOfPower"/>
+        <Class IRI="#MCUSuperheros"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#powerDetail"/>
+        <Class IRI="#Power"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#realname"/>
+        <Class IRI="#MCUSuperheros"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#year"/>
+        <Class IRI="#MCUMovie"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#actorname"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#isAlive"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#powerDetail"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#realname"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#year"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MCUMovie</IRI>
+        <Literal xml:lang="en">Movies from Marvel Comic Universe cinematic film</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MCUSuperheros</IRI>
+        <Literal xml:lang="en">Marvel cinematic universe superheros</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Power</IRI>
+        <Literal xml:lang="en">Powers of superhero</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#actorname</IRI>
+        <Literal xml:lang="en">name of actor who played</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#firstIntroduction</IRI>
+        <Literal xml:lang="en">first movie that hero appeared in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasPower</IRI>
+        <Literal xml:lang="en">Power for MCU superhero in movie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasShownInMovie</IRI>
+        <Literal xml:lang="en">movie that hero have appeared in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isAlive</IRI>
+        <Literal xml:lang="en">MCU superheros life status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#originOfPower</IRI>
+        <Literal xml:lang="en">the origin of each superhero power</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#powerDetail</IRI>
+        <Literal xml:lang="en">Detail of each superheros power</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#realname</IRI>
+        <Literal xml:lang="en">real name of superhero in the movie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#year</IRI>
+        <Literal xml:lang="en">movie released year of the movies</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

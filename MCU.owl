@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://www.semanticweb.org/harryboxer/ontologies/2019/7/MCUsuperheros"
+     xml:base="http://www.semanticweb.org/pichaaun/ontologies/2019/7/mcusuperheroes"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/harryboxer/ontologies/2019/7/MCUsuperheros">
+     ontologyIRI="http://www.semanticweb.org/pichaaun/ontologies/2019/7/mcusuperheroes">
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -15,13 +15,13 @@
         <Class IRI="#MCUMovie"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MCUSuperheros"/>
+        <Class IRI="#MCUSuperheroes"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Power"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#firstIntroduction"/>
+        <ObjectProperty IRI="#fisrtIntroduction"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasPower"/>
@@ -36,7 +36,7 @@
         <DataProperty IRI="#isAlive"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#originOfPower"/>
+        <DataProperty IRI="#originorpower"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#powerDetail"/>
@@ -78,28 +78,25 @@
         <NamedIndividual IRI="#CaptainAmericaTheWinterSoldier"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#CaptainMarvel"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#CaptainMarvel1"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#DoctorStrange"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Dr.Strange"/>
+        <NamedIndividual IRI="#DoctorStrange1"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Gamora"/>
+        <NamedIndividual IRI="#GuardianOfTheGalaxyVol1"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Groot"/>
+        <NamedIndividual IRI="#GuardianOfTheGalaxyVol2"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#GuardianOFTheGalaxyVol.2"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#GuardianOfTheGalaxyVol.1"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Hulk"/>
+        <NamedIndividual IRI="#IronMan"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#IronMan1"/>
@@ -111,16 +108,16 @@
         <NamedIndividual IRI="#IronMan3"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Mantis"/>
+        <NamedIndividual IRI="#QuickSilver"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Nabula"/>
+        <NamedIndividual IRI="#ScarletWitch"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Rocket"/>
+        <NamedIndividual IRI="#SpiderMan"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#SpiderManForFromHome"/>
+        <NamedIndividual IRI="#SpiderManFarFromHome"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#SpiderManHomeComing"/>
@@ -132,7 +129,7 @@
         <NamedIndividual IRI="#TheIncredibleHulk"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#TheWasp"/>
+        <NamedIndividual IRI="#Thor"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Thor1"/>
@@ -144,16 +141,10 @@
         <NamedIndividual IRI="#ThorTheDarkWorld"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Valkyrie"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Vision"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org/harryboxer/ontologies/2019/7/country#Thailand"/>
+        <NamedIndividual IRI="#WinterSoldier"/>
     </Declaration>
     <DisjointClasses>
-        <Class IRI="#MCUSuperheros"/>
+        <Class IRI="#MCUSuperheroes"/>
         <Class IRI="#Power"/>
     </DisjointClasses>
     <ClassAssertion>
@@ -181,7 +172,7 @@
         <NamedIndividual IRI="#BlackPanther1"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#MCUSuperheros"/>
+        <Class IRI="#MCUSuperheroes"/>
         <NamedIndividual IRI="#CaptainAmerica"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -197,36 +188,32 @@
         <NamedIndividual IRI="#CaptainAmericaTheWinterSoldier"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#CaptainMarvel"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#MCUMovie"/>
         <NamedIndividual IRI="#CaptainMarvel1"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#MCUMovie"/>
+        <Class IRI="#MCUSuperheroes"/>
         <NamedIndividual IRI="#DoctorStrange"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#MCUSuperheros"/>
-        <NamedIndividual IRI="#Dr.Strange"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#MCUSuperheros"/>
-        <NamedIndividual IRI="#Gamora"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#MCUSuperheros"/>
-        <NamedIndividual IRI="#Groot"/>
+        <Class IRI="#MCUMovie"/>
+        <NamedIndividual IRI="#DoctorStrange1"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MCUMovie"/>
-        <NamedIndividual IRI="#GuardianOFTheGalaxyVol.2"/>
+        <NamedIndividual IRI="#GuardianOfTheGalaxyVol1"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MCUMovie"/>
-        <NamedIndividual IRI="#GuardianOfTheGalaxyVol.1"/>
+        <NamedIndividual IRI="#GuardianOfTheGalaxyVol2"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#MCUSuperheros"/>
-        <NamedIndividual IRI="#Hulk"/>
+        <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#IronMan"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MCUMovie"/>
@@ -241,20 +228,20 @@
         <NamedIndividual IRI="#IronMan3"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#MCUSuperheros"/>
-        <NamedIndividual IRI="#Mantis"/>
+        <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#QuickSilver"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#MCUSuperheros"/>
-        <NamedIndividual IRI="#Nabula"/>
+        <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#ScarletWitch"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#MCUSuperheros"/>
-        <NamedIndividual IRI="#Rocket"/>
+        <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#SpiderMan"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MCUMovie"/>
-        <NamedIndividual IRI="#SpiderManForFromHome"/>
+        <NamedIndividual IRI="#SpiderManFarFromHome"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MCUMovie"/>
@@ -269,8 +256,8 @@
         <NamedIndividual IRI="#TheIncredibleHulk"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#MCUSuperheros"/>
-        <NamedIndividual IRI="#TheWasp"/>
+        <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#Thor"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MCUMovie"/>
@@ -285,22 +272,28 @@
         <NamedIndividual IRI="#ThorTheDarkWorld"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#MCUSuperheros"/>
-        <NamedIndividual IRI="#Valkyrie"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#MCUSuperheros"/>
-        <NamedIndividual IRI="#Vision"/>
+        <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#WinterSoldier"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#firstIntroduction"/>
+        <ObjectProperty IRI="#fisrtIntroduction"/>
         <NamedIndividual IRI="#CaptainAmerica"/>
-        <NamedIndividual IRI="#CaptainAmerica"/>
+        <NamedIndividual IRI="#CaptainAmericaTheFirstAvenger"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasShownInMovie"/>
         <NamedIndividual IRI="#CaptainAmerica"/>
+        <NamedIndividual IRI="#AvengersAgeOfUltron"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
         <NamedIndividual IRI="#CaptainAmerica"/>
+        <NamedIndividual IRI="#AvengersEndgame"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#CaptainAmerica"/>
+        <NamedIndividual IRI="#AvengersInfinityWar"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasShownInMovie"/>
@@ -318,39 +311,44 @@
         <NamedIndividual IRI="#CaptainAmericaTheWinterSoldier"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#firstIntroduction"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/harryboxer/ontologies/2019/7/country#Thailand"/>
-        <NamedIndividual IRI="#Ant-Man1"/>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#CaptainAmerica"/>
+        <NamedIndividual IRI="#TheAvengers1"/>
     </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#firstIntroduction"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/harryboxer/ontologies/2019/7/country#Thailand"/>
-        <NamedIndividual IRI="#Ant-ManAndTheWasp"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#firstIntroduction"/>
-        <NamedIndividual IRI="http://www.semanticweb.org/harryboxer/ontologies/2019/7/country#Thailand"/>
-        <NamedIndividual IRI="#CaptainAmericaCivilWar"/>
-    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actorname"/>
+        <NamedIndividual IRI="#CaptainAmerica"/>
+        <Literal xml:lang="en">Chris Evans</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlive"/>
+        <NamedIndividual IRI="#CaptainAmerica"/>
+        <Literal xml:lang="en">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#realname"/>
+        <NamedIndividual IRI="#CaptainAmerica"/>
+        <Literal xml:lang="en">Steve Rogers</Literal>
+    </DataPropertyAssertion>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#firstIntroduction"/>
-        <Class IRI="#MCUSuperheros"/>
+        <ObjectProperty IRI="#fisrtIntroduction"/>
+        <Class IRI="#MCUSuperheroes"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasPower"/>
-        <Class IRI="#MCUSuperheros"/>
+        <Class IRI="#MCUSuperheroes"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasShownInMovie"/>
-        <Class IRI="#MCUSuperheros"/>
+        <Class IRI="#MCUSuperheroes"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#firstIntroduction"/>
+        <ObjectProperty IRI="#fisrtIntroduction"/>
         <Class IRI="#MCUMovie"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasPower"/>
-        <Class IRI="#MCUMovie"/>
+        <Class IRI="#Power"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasShownInMovie"/>
@@ -358,15 +356,15 @@
     </ObjectPropertyRange>
     <DataPropertyDomain>
         <DataProperty IRI="#actorname"/>
-        <Class IRI="#MCUSuperheros"/>
+        <Class IRI="#MCUSuperheroes"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#isAlive"/>
-        <Class IRI="#MCUSuperheros"/>
+        <Class IRI="#MCUSuperheroes"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#originOfPower"/>
-        <Class IRI="#MCUSuperheros"/>
+        <DataProperty IRI="#originorpower"/>
+        <Class IRI="#Power"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#powerDetail"/>
@@ -374,7 +372,7 @@
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#realname"/>
-        <Class IRI="#MCUSuperheros"/>
+        <Class IRI="#MCUSuperheroes"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#year"/>
@@ -387,6 +385,10 @@
     <DataPropertyRange>
         <DataProperty IRI="#isAlive"/>
         <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#originorpower"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#powerDetail"/>
@@ -403,62 +405,62 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#MCUMovie</IRI>
-        <Literal xml:lang="en">Movies from Marvel Comic Universe cinematic film</Literal>
+        <Literal xml:lang="en">Movies in MCU</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#MCUSuperheros</IRI>
-        <Literal xml:lang="en">Marvel cinematic universe superheros</Literal>
+        <IRI>#MCUSuperheroes</IRI>
+        <Literal xml:lang="en">Marvel cinematic Universe superheroes.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Power</IRI>
-        <Literal xml:lang="en">Powers of superhero</Literal>
+        <Literal xml:lang="en">Power of each superheroes</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#actorname</IRI>
-        <Literal xml:lang="en">name of actor who played</Literal>
+        <Literal xml:lang="en">Name of actor who plays as a superhero.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#firstIntroduction</IRI>
-        <Literal xml:lang="en">first movie that hero appeared in</Literal>
+        <IRI>#fisrtIntroduction</IRI>
+        <Literal xml:lang="en">Superhero fisrt appearance</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#hasPower</IRI>
-        <Literal xml:lang="en">Power for MCU superhero in movie</Literal>
+        <Literal>Mcu superheroes has power</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#hasShownInMovie</IRI>
-        <Literal xml:lang="en">movie that hero have appeared in</Literal>
+        <Literal xml:lang="en">MCU superheroes apper in movie</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#isAlive</IRI>
-        <Literal xml:lang="en">MCU superheros life status</Literal>
+        <Literal xml:lang="en">MCU superhero life status</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#originOfPower</IRI>
-        <Literal xml:lang="en">the origin of each superhero power</Literal>
+        <IRI>#originorpower</IRI>
+        <Literal xml:lang="en">The origin where superhero&apos;s power comes from</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#powerDetail</IRI>
-        <Literal xml:lang="en">Detail of each superheros power</Literal>
+        <Literal xml:lang="en">Detail of each superhero&apos;s power</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#realname</IRI>
-        <Literal xml:lang="en">real name of superhero in the movie</Literal>
+        <Literal xml:lang="en">Superhero&apos;s real name</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#year</IRI>
-        <Literal xml:lang="en">movie released year of the movies</Literal>
+        <Literal xml:lang="en">Released year of movie</Literal>
     </AnnotationAssertion>
 </Ontology>
 

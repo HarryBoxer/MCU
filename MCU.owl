@@ -6,6 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/pichaaun/ontologies/2019/7/mcusuperheroes">
+    <Prefix name="" IRI="http://www.semanticweb.org/pichaaun/ontologies/2019/7/mcusuperheroes"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -21,7 +22,7 @@
         <Class IRI="#Power"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#fisrtIntroduction"/>
+        <ObjectProperty IRI="#firstIntroduction"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasPower"/>
@@ -36,7 +37,7 @@
         <DataProperty IRI="#isAlive"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#originorpower"/>
+        <DataProperty IRI="#originOfPower"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#powerDetail"/>
@@ -54,6 +55,9 @@
         <NamedIndividual IRI="#Ant-ManAndTheWasp"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Ant-man"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#AvengersAgeOfUltron"/>
     </Declaration>
     <Declaration>
@@ -63,7 +67,13 @@
         <NamedIndividual IRI="#AvengersInfinityWar"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#BlackPanther"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#BlackPanther1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BlackWidow"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#CaptainAmerica"/>
@@ -90,10 +100,22 @@
         <NamedIndividual IRI="#DoctorStrange1"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Falcon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gamora"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Groot"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#GuardianOfTheGalaxyVol1"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#GuardianOfTheGalaxyVol2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hawkeye"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#IronMan"/>
@@ -108,10 +130,34 @@
         <NamedIndividual IRI="#IronMan3"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Loki"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mantis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nebula"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PhotonEnergy"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#QuickSilver"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Rocket"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#ScarletWitch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shuri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SizeManipulation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SkilledFigther"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#SpiderMan"/>
@@ -123,10 +169,28 @@
         <NamedIndividual IRI="#SpiderManHomeComing"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#StarLord"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StoreKineticEnergy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SuperStrength"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Telekinesis"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#TheAvengers1"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#TheHulk"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#TheIncredibleHulk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TheWasp"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Thor"/>
@@ -139,6 +203,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#ThorTheDarkWorld"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vision"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#WinterSoldier"/>
@@ -156,6 +223,10 @@
         <NamedIndividual IRI="#Ant-ManAndTheWasp"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#Ant-man"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#MCUMovie"/>
         <NamedIndividual IRI="#AvengersAgeOfUltron"/>
     </ClassAssertion>
@@ -168,8 +239,16 @@
         <NamedIndividual IRI="#AvengersInfinityWar"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#BlackPanther"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#MCUMovie"/>
         <NamedIndividual IRI="#BlackPanther1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#BlackWidow"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
@@ -204,12 +283,28 @@
         <NamedIndividual IRI="#DoctorStrange1"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#Falcon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#Gamora"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#Groot"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#MCUMovie"/>
         <NamedIndividual IRI="#GuardianOfTheGalaxyVol1"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MCUMovie"/>
         <NamedIndividual IRI="#GuardianOfTheGalaxyVol2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#Hawkeye"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
@@ -229,11 +324,43 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#Loki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#Mantis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#Nebula"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#PhotonEnergy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheroes"/>
         <NamedIndividual IRI="#QuickSilver"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#Rocket"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheroes"/>
         <NamedIndividual IRI="#ScarletWitch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#Shuri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#SizeManipulation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#SkilledFigther"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
@@ -248,12 +375,36 @@
         <NamedIndividual IRI="#SpiderManHomeComing"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#StarLord"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#StoreKineticEnergy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#SuperStrength"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#Telekinesis"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#MCUMovie"/>
         <NamedIndividual IRI="#TheAvengers1"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#TheHulk"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#MCUMovie"/>
         <NamedIndividual IRI="#TheIncredibleHulk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#TheWasp"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
@@ -273,12 +424,131 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
+        <NamedIndividual IRI="#Vision"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MCUSuperheroes"/>
         <NamedIndividual IRI="#WinterSoldier"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#fisrtIntroduction"/>
+        <ObjectProperty IRI="#firstIntroduction"/>
+        <NamedIndividual IRI="#Ant-man"/>
+        <NamedIndividual IRI="#Ant-Man1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#Ant-man"/>
+        <NamedIndividual IRI="#SizeManipulation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#Ant-man"/>
+        <NamedIndividual IRI="#Ant-Man1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#Ant-man"/>
+        <NamedIndividual IRI="#Ant-ManAndTheWasp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#Ant-man"/>
+        <NamedIndividual IRI="#AvengersEndgame"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#Ant-man"/>
+        <NamedIndividual IRI="#CaptainAmericaCivilWar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#firstIntroduction"/>
+        <NamedIndividual IRI="#BlackPanther"/>
+        <NamedIndividual IRI="#CaptainAmericaCivilWar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#BlackPanther"/>
+        <NamedIndividual IRI="#SkilledFigther"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#BlackPanther"/>
+        <NamedIndividual IRI="#StoreKineticEnergy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#BlackPanther"/>
+        <NamedIndividual IRI="#AvengersEndgame"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#BlackPanther"/>
+        <NamedIndividual IRI="#AvengersInfinityWar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#BlackPanther"/>
+        <NamedIndividual IRI="#BlackPanther1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#BlackPanther"/>
+        <NamedIndividual IRI="#CaptainAmericaCivilWar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#firstIntroduction"/>
+        <NamedIndividual IRI="#BlackWidow"/>
+        <NamedIndividual IRI="#IronMan2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#BlackWidow"/>
+        <NamedIndividual IRI="#SkilledFigther"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#BlackWidow"/>
+        <NamedIndividual IRI="#AvengersAgeOfUltron"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#BlackWidow"/>
+        <NamedIndividual IRI="#AvengersEndgame"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#BlackWidow"/>
+        <NamedIndividual IRI="#AvengersInfinityWar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#BlackWidow"/>
+        <NamedIndividual IRI="#CaptainAmericaCivilWar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#BlackWidow"/>
+        <NamedIndividual IRI="#CaptainAmericaTheWinterSoldier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#BlackWidow"/>
+        <NamedIndividual IRI="#IronMan2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#BlackWidow"/>
+        <NamedIndividual IRI="#TheAvengers1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#firstIntroduction"/>
         <NamedIndividual IRI="#CaptainAmerica"/>
         <NamedIndividual IRI="#CaptainAmericaTheFirstAvenger"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#CaptainAmerica"/>
+        <NamedIndividual IRI="#SkilledFigther"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasShownInMovie"/>
@@ -315,23 +585,138 @@
         <NamedIndividual IRI="#CaptainAmerica"/>
         <NamedIndividual IRI="#TheAvengers1"/>
     </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#firstIntroduction"/>
+        <NamedIndividual IRI="#CaptainMarvel"/>
+        <NamedIndividual IRI="#CaptainMarvel1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#CaptainMarvel"/>
+        <NamedIndividual IRI="#AvengersEndgame"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#CaptainMarvel"/>
+        <NamedIndividual IRI="#CaptainMarvel1"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actorname"/>
+        <NamedIndividual IRI="#Ant-man"/>
+        <Literal>Paul Rudd</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlive"/>
+        <NamedIndividual IRI="#Ant-man"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#realname"/>
+        <NamedIndividual IRI="#Ant-man"/>
+        <Literal>Scott Lang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actorname"/>
+        <NamedIndividual IRI="#BlackPanther"/>
+        <Literal>Chadwick Boseman</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlive"/>
+        <NamedIndividual IRI="#BlackPanther"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#realname"/>
+        <NamedIndividual IRI="#BlackPanther"/>
+        <Literal>T&apos;Challa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actorname"/>
+        <NamedIndividual IRI="#BlackWidow"/>
+        <Literal>Scarlett Johansson</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlive"/>
+        <NamedIndividual IRI="#BlackWidow"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#realname"/>
+        <NamedIndividual IRI="#BlackWidow"/>
+        <Literal>Natasha Romanoff</Literal>
+    </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
         <NamedIndividual IRI="#CaptainAmerica"/>
-        <Literal xml:lang="en">Chris Evans</Literal>
+        <Literal>Chris Evans</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isAlive"/>
         <NamedIndividual IRI="#CaptainAmerica"/>
-        <Literal xml:lang="en">true</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#realname"/>
         <NamedIndividual IRI="#CaptainAmerica"/>
-        <Literal xml:lang="en">Steve Rogers</Literal>
+        <Literal>Steve Rogers</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actorname"/>
+        <NamedIndividual IRI="#CaptainMarvel"/>
+        <Literal>Brie Larson</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlive"/>
+        <NamedIndividual IRI="#CaptainMarvel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#realname"/>
+        <NamedIndividual IRI="#CaptainMarvel"/>
+        <Literal>Carol Danvers</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originOfPower"/>
+        <NamedIndividual IRI="#SizeManipulation"/>
+        <Literal>Pym&apos;s particle and Pym&apos;s suit</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerDetail"/>
+        <NamedIndividual IRI="#SizeManipulation"/>
+        <Literal>The power can alter user size, which allows the user to compress force and energy. User can shrink down to the size of an ant, but can also grow up to 65 ft.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originOfPower"/>
+        <NamedIndividual IRI="#SkilledFigther"/>
+        <Literal>From user&apos;s training.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerDetail"/>
+        <NamedIndividual IRI="#SkilledFigther"/>
+        <Literal>Good at hand to hand combat fighthing.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originOfPower"/>
+        <NamedIndividual IRI="#StoreKineticEnergy"/>
+        <Literal>The power come from Vibranium suit that invented by Shuri.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerDetail"/>
+        <NamedIndividual IRI="#StoreKineticEnergy"/>
+        <Literal>This power can absorb and store kinetic energy in order to attck enermies later on.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originOfPower"/>
+        <NamedIndividual IRI="#SuperStrength"/>
+        <Literal>Super-soldier serum that first created by Abraham Erskine the scientist.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerDetail"/>
+        <NamedIndividual IRI="#SuperStrength"/>
+        <Literal>User has more strength, flighting skills, invulnerability ans smarter than normal people.</Literal>
     </DataPropertyAssertion>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#fisrtIntroduction"/>
+        <ObjectProperty IRI="#firstIntroduction"/>
         <Class IRI="#MCUSuperheroes"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -343,7 +728,7 @@
         <Class IRI="#MCUSuperheroes"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#fisrtIntroduction"/>
+        <ObjectProperty IRI="#firstIntroduction"/>
         <Class IRI="#MCUMovie"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
@@ -363,7 +748,7 @@
         <Class IRI="#MCUSuperheroes"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#originorpower"/>
+        <DataProperty IRI="#originOfPower"/>
         <Class IRI="#Power"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
@@ -387,7 +772,7 @@
         <Datatype abbreviatedIRI="xsd:boolean"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#originorpower"/>
+        <DataProperty IRI="#originOfPower"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
@@ -414,8 +799,38 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PhotonEnergy</IRI>
+        <Literal xml:lang="en">Photon energy beam</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Power</IRI>
         <Literal xml:lang="en">Power of each superheroes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SizeManipulation</IRI>
+        <Literal xml:lang="en">This power can manipulate and change size.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SkilledFigther</IRI>
+        <Literal xml:lang="en">Good at hand to hand combat fighting.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#StoreKineticEnergy</IRI>
+        <Literal xml:lang="en">This power can absorb and store kinetic energy in order to attck enermies later on.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SuperStrength</IRI>
+        <Literal xml:lang="en">User has more strength, flighting skills, invulnerability ans smarter than normal people.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Telekinesis</IRI>
+        <Literal xml:lang="en">The power that can manipulate and control the surrounded things.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -424,8 +839,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#fisrtIntroduction</IRI>
-        <Literal xml:lang="en">Superhero fisrt appearance</Literal>
+        <IRI>#firstIntroduction</IRI>
+        <Literal xml:lang="en">Superhero first appearance</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -444,7 +859,7 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#originorpower</IRI>
+        <IRI>#originOfPower</IRI>
         <Literal xml:lang="en">The origin where superhero&apos;s power comes from</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>

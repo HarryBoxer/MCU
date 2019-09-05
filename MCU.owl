@@ -37,7 +37,7 @@
         <DataProperty IRI="#isAlive"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#originOfPower"/>
+        <DataProperty IRI="#originOfHero"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#powerDetail"/>
@@ -107,6 +107,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Falcon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Flying"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Gamora"/>
@@ -313,6 +316,10 @@
         <NamedIndividual IRI="#Falcon"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#Flying"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
         <NamedIndividual IRI="#Gamora"/>
     </ClassAssertion>
@@ -670,6 +677,11 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasPower"/>
         <NamedIndividual IRI="#DoctorStrange"/>
+        <NamedIndividual IRI="#Flying"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#DoctorStrange"/>
         <NamedIndividual IRI="#Magic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -713,14 +725,14 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#originOfHero"/>
+        <NamedIndividual IRI="#Ant-man"/>
+        <Literal>Scott Lang stole Ant man suit from Hank Pym&apos;s house, then Hank offered Scott to became the Ant-man unless he will call the police to arrest Scott.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#realname"/>
         <NamedIndividual IRI="#Ant-man"/>
         <Literal>Scott Lang</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#originOfPower"/>
-        <NamedIndividual IRI="#ArrowSkill"/>
-        <Literal>From user hard traning.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#powerDetail"/>
@@ -753,6 +765,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#originOfHero"/>
+        <NamedIndividual IRI="#BlackPanther"/>
+        <Literal>T&apos;Challa attended to the traditional ceremony to challenge the throne of Wakanda. When he won the competition, he got the power of the Black Pather from the Heart of Wakanda and become the Black Panther.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#realname"/>
         <NamedIndividual IRI="#BlackPanther"/>
         <Literal>T&apos;Challa</Literal>
@@ -773,6 +790,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#originOfHero"/>
+        <NamedIndividual IRI="#BlackWidow"/>
+        <Literal>Former spy pf Russia. She was trained to be seductive superspy and an expert martial artist called Red Room training. Until she was rescused by Hawkeye and become one of the agents of Sheild.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#realname"/>
         <NamedIndividual IRI="#BlackWidow"/>
         <Literal>Natasha Romanoff</Literal>
@@ -786,6 +808,12 @@
         <DataProperty IRI="#isAlive"/>
         <NamedIndividual IRI="#CaptainAmerica"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originOfHero"/>
+        <NamedIndividual IRI="#CaptainAmerica"/>
+        <Literal>At fisrt, Steve Rogers was a tiny man. He couldn&apos;t be a soldier, but one day his attempt led him to success finally he became a soldier. Since he was tiny and weak but with his intention and sacrifice, the military offer him to inject the super soldier serum and become Captain America.  
+Captain America&apos;s shield was invented by Haward Stark or Iron Man&apos;s father it made from Vibrenium.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#realname"/>
@@ -818,6 +846,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#originOfHero"/>
+        <NamedIndividual IRI="#CaptainMarvel"/>
+        <Literal>Carol Danvers is a formal pilot. Then her plane crashed and plane&apos;s engine exploded. Since the engine is a Tessaract or the space stone Danvers absorbed the power of the stone to her body. It&apos;s powerful, but dangerous too. So she took blood transfer from Kree, and this make she stronger than normal human.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#realname"/>
         <NamedIndividual IRI="#CaptainMarvel"/>
         <Literal>Carol Danvers</Literal>
@@ -838,6 +871,11 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#originOfHero"/>
+        <NamedIndividual IRI="#DoctorStrange"/>
+        <Literal>Dr.Stephen Strange was a great surgeon, but after his car accident he lost his hand&apos;s control that makes his hands shaking and can&apos;t do the surgery anymore. He try to fix it any ways possible, but there is noway to cure his hands. One day he met one man who once his legs was injured and couldn&apos;d fix like Strange hands. That man told Strange that his legs is fully recover because of the magic, then Strange start his journey to find the Kamartaj. When he know that the magic is real, he begin the magical training and become the best sorcerer.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#realname"/>
         <NamedIndividual IRI="#DoctorStrange"/>
         <Literal>Dr.Stephen Strange</Literal>
@@ -848,14 +886,14 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2016</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#originOfPower"/>
-        <NamedIndividual IRI="#Durability"/>
-        <Literal>From the training or species special ability.</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
         <DataProperty IRI="#powerDetail"/>
         <NamedIndividual IRI="#Durability"/>
         <Literal>When user is attacked, user can fight continuously without a harmful damage.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerDetail"/>
+        <NamedIndividual IRI="#Flying"/>
+        <Literal>User can floating in the air.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#year"/>
@@ -883,24 +921,9 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2013</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#originOfPower"/>
-        <NamedIndividual IRI="#LightSpeedFlight"/>
-        <Literal>Using the Photon blasts as a jet.</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
         <DataProperty IRI="#powerDetail"/>
         <NamedIndividual IRI="#LightSpeedFlight"/>
         <Literal>User can fly as fast as the speed of light.</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#originOfPower"/>
-        <NamedIndividual IRI="#Magic"/>
-        <Literal>Mystical entities such as Agamotto, Cyttorak, Ikonn etc. who lend their energies for spells.</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#originOfPower"/>
-        <NamedIndividual IRI="#PhotonEnergy"/>
-        <Literal>One of the infinity stone called Tessaract or space stone.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#powerDetail"/>
@@ -908,19 +931,9 @@
         <Literal>User can release a very powerful beam out of their hands.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#originOfPower"/>
-        <NamedIndividual IRI="#SizeManipulation"/>
-        <Literal>Pym&apos;s particle and Pym&apos;s suit</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
         <DataProperty IRI="#powerDetail"/>
         <NamedIndividual IRI="#SizeManipulation"/>
         <Literal>The power can alter user size, which allows the user to compress force and energy. User can shrink down to the size of an ant, but can also grow up to 65 ft.</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#originOfPower"/>
-        <NamedIndividual IRI="#SkilledFigther"/>
-        <Literal>From user&apos;s training.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#powerDetail"/>
@@ -938,29 +951,14 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2017</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#originOfPower"/>
-        <NamedIndividual IRI="#StoreKineticEnergy"/>
-        <Literal>The power come from Vibranium suit that invented by Shuri.</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
         <DataProperty IRI="#powerDetail"/>
         <NamedIndividual IRI="#StoreKineticEnergy"/>
         <Literal>This power can absorb and store kinetic energy in order to attck enermies later on.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#originOfPower"/>
-        <NamedIndividual IRI="#SuperSoldier"/>
-        <Literal>Super-soldier serum that was created by the scientist in the past.</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
         <DataProperty IRI="#powerDetail"/>
         <NamedIndividual IRI="#SuperSoldier"/>
         <Literal>User has more strength, flighting skills, invulnerability ans smarter than normal people.</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#originOfPower"/>
-        <NamedIndividual IRI="#SuperStrength"/>
-        <Literal>This power is occured by difference of genetics depends on what kind of species they are.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#powerDetail"/>
@@ -1025,8 +1023,8 @@
         <Class IRI="#MCUSuperheroes"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#originOfPower"/>
-        <Class IRI="#Power"/>
+        <DataProperty IRI="#originOfHero"/>
+        <Class IRI="#MCUSuperheroes"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#powerDetail"/>
@@ -1049,7 +1047,7 @@
         <Datatype abbreviatedIRI="xsd:boolean"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#originOfPower"/>
+        <DataProperty IRI="#originOfHero"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
@@ -1073,6 +1071,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Durability</IRI>
         <Literal xml:lang="en">When user is attacked, user can fight continuously without a harmful damage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Flying</IRI>
+        <Literal xml:lang="en">User can floating in the air.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1166,8 +1169,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#originOfPower</IRI>
-        <Literal xml:lang="en">The origin where superhero&apos;s power comes from</Literal>
+        <IRI>#originOfHero</IRI>
+        <Literal xml:lang="en">Story of each superhero.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>

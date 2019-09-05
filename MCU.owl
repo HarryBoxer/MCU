@@ -58,6 +58,9 @@
         <NamedIndividual IRI="#Ant-man"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#ArrowSkill"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#AvengersAgeOfUltron"/>
     </Declaration>
     <Declaration>
@@ -100,6 +103,9 @@
         <NamedIndividual IRI="#DoctorStrange1"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Durability"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Falcon"/>
     </Declaration>
     <Declaration>
@@ -130,7 +136,16 @@
         <NamedIndividual IRI="#IronMan3"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#LaserBeam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LightSpeedFlight"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Loki"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Magic"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Mantis"/>
@@ -173,6 +188,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#StoreKineticEnergy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SuperSoldier"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#SuperStrength"/>
@@ -227,6 +245,10 @@
         <NamedIndividual IRI="#Ant-man"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#ArrowSkill"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#MCUMovie"/>
         <NamedIndividual IRI="#AvengersAgeOfUltron"/>
     </ClassAssertion>
@@ -283,6 +305,10 @@
         <NamedIndividual IRI="#DoctorStrange1"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#Durability"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
         <NamedIndividual IRI="#Falcon"/>
     </ClassAssertion>
@@ -323,8 +349,20 @@
         <NamedIndividual IRI="#IronMan3"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#LaserBeam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#LightSpeedFlight"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
         <NamedIndividual IRI="#Loki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#Magic"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
@@ -381,6 +419,10 @@
     <ClassAssertion>
         <Class IRI="#Power"/>
         <NamedIndividual IRI="#StoreKineticEnergy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#SuperSoldier"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Power"/>
@@ -551,6 +593,11 @@
         <NamedIndividual IRI="#SkilledFigther"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#CaptainAmerica"/>
+        <NamedIndividual IRI="#SuperSoldier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasShownInMovie"/>
         <NamedIndividual IRI="#CaptainAmerica"/>
         <NamedIndividual IRI="#AvengersAgeOfUltron"/>
@@ -591,6 +638,21 @@
         <NamedIndividual IRI="#CaptainMarvel1"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#CaptainMarvel"/>
+        <NamedIndividual IRI="#LightSpeedFlight"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#CaptainMarvel"/>
+        <NamedIndividual IRI="#PhotonEnergy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#CaptainMarvel"/>
+        <NamedIndividual IRI="#SuperStrength"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasShownInMovie"/>
         <NamedIndividual IRI="#CaptainMarvel"/>
         <NamedIndividual IRI="#AvengersEndgame"/>
@@ -600,6 +662,46 @@
         <NamedIndividual IRI="#CaptainMarvel"/>
         <NamedIndividual IRI="#CaptainMarvel1"/>
     </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#firstIntroduction"/>
+        <NamedIndividual IRI="#DoctorStrange"/>
+        <NamedIndividual IRI="#DoctorStrange1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#DoctorStrange"/>
+        <NamedIndividual IRI="#Magic"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#DoctorStrange"/>
+        <NamedIndividual IRI="#AvengersEndgame"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#DoctorStrange"/>
+        <NamedIndividual IRI="#AvengersInfinityWar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#DoctorStrange"/>
+        <NamedIndividual IRI="#DoctorStrange1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#DoctorStrange"/>
+        <NamedIndividual IRI="#ThorRagnarok"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#Ant-Man1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2015</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#Ant-ManAndTheWasp"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2018</Literal>
+    </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
         <NamedIndividual IRI="#Ant-man"/>
@@ -616,6 +718,31 @@
         <Literal>Scott Lang</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#originOfPower"/>
+        <NamedIndividual IRI="#ArrowSkill"/>
+        <Literal>From user hard traning.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerDetail"/>
+        <NamedIndividual IRI="#ArrowSkill"/>
+        <Literal>User has great bow shooting ability.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#AvengersAgeOfUltron"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2015</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#AvengersEndgame"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#AvengersInfinityWar"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2018</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
         <NamedIndividual IRI="#BlackPanther"/>
         <Literal>Chadwick Boseman</Literal>
@@ -629,6 +756,11 @@
         <DataProperty IRI="#realname"/>
         <NamedIndividual IRI="#BlackPanther"/>
         <Literal>T&apos;Challa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#BlackPanther1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2018</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
@@ -661,6 +793,21 @@
         <Literal>Steve Rogers</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#CaptainAmericaCivilWar"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2016</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#CaptainAmericaTheFirstAvenger"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2011</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#CaptainAmericaTheWinterSoldier"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2014</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
         <NamedIndividual IRI="#CaptainMarvel"/>
         <Literal>Brie Larson</Literal>
@@ -674,6 +821,91 @@
         <DataProperty IRI="#realname"/>
         <NamedIndividual IRI="#CaptainMarvel"/>
         <Literal>Carol Danvers</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#CaptainMarvel1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actorname"/>
+        <NamedIndividual IRI="#DoctorStrange"/>
+        <Literal>Benedict Cumberbatch</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlive"/>
+        <NamedIndividual IRI="#DoctorStrange"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#realname"/>
+        <NamedIndividual IRI="#DoctorStrange"/>
+        <Literal>Dr.Stephen Strange</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#DoctorStrange1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2016</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originOfPower"/>
+        <NamedIndividual IRI="#Durability"/>
+        <Literal>From the training or species special ability.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerDetail"/>
+        <NamedIndividual IRI="#Durability"/>
+        <Literal>When user is attacked, user can fight continuously without a harmful damage.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#GuardianOfTheGalaxyVol1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2014</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#GuardianOfTheGalaxyVol2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#IronMan1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2008</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#IronMan2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2010</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#IronMan3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2013</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originOfPower"/>
+        <NamedIndividual IRI="#LightSpeedFlight"/>
+        <Literal>Using the Photon blasts as a jet.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerDetail"/>
+        <NamedIndividual IRI="#LightSpeedFlight"/>
+        <Literal>User can fly as fast as the speed of light.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originOfPower"/>
+        <NamedIndividual IRI="#Magic"/>
+        <Literal>Mystical entities such as Agamotto, Cyttorak, Ikonn etc. who lend their energies for spells.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originOfPower"/>
+        <NamedIndividual IRI="#PhotonEnergy"/>
+        <Literal>One of the infinity stone called Tessaract or space stone.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerDetail"/>
+        <NamedIndividual IRI="#PhotonEnergy"/>
+        <Literal>User can release a very powerful beam out of their hands.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#originOfPower"/>
@@ -696,6 +928,16 @@
         <Literal>Good at hand to hand combat fighthing.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#SpiderManFarFromHome"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#SpiderManHomeComing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#originOfPower"/>
         <NamedIndividual IRI="#StoreKineticEnergy"/>
         <Literal>The power come from Vibranium suit that invented by Shuri.</Literal>
@@ -707,13 +949,48 @@
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#originOfPower"/>
+        <NamedIndividual IRI="#SuperSoldier"/>
+        <Literal>Super-soldier serum that was created by the scientist in the past.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerDetail"/>
+        <NamedIndividual IRI="#SuperSoldier"/>
+        <Literal>User has more strength, flighting skills, invulnerability ans smarter than normal people.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originOfPower"/>
         <NamedIndividual IRI="#SuperStrength"/>
-        <Literal>Super-soldier serum that first created by Abraham Erskine the scientist.</Literal>
+        <Literal>This power is occured by difference of genetics depends on what kind of species they are.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#powerDetail"/>
         <NamedIndividual IRI="#SuperStrength"/>
         <Literal>User has more strength, flighting skills, invulnerability ans smarter than normal people.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#TheAvengers1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2012</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#TheIncredibleHulk"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2008</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#Thor1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2011</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#ThorRagnarok"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#ThorTheDarkWorld"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2013</Literal>
     </DataPropertyAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#firstIntroduction"/>
@@ -789,6 +1066,26 @@
     </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ArrowSkill</IRI>
+        <Literal xml:lang="en">User is good at archery and can shoot an arrows to the target accurately.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Durability</IRI>
+        <Literal xml:lang="en">When user is attacked, user can fight continuously without a harmful damage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LaserBeam</IRI>
+        <Literal xml:lang="en">User can release very powerful beam.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LightSpeedFlight</IRI>
+        <Literal xml:lang="en">This power allows user to fly as fast as the speed of light.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#MCUMovie</IRI>
         <Literal xml:lang="en">Movies in MCU</Literal>
     </AnnotationAssertion>
@@ -796,6 +1093,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#MCUSuperheroes</IRI>
         <Literal xml:lang="en">Marvel cinematic Universe superheroes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Magic</IRI>
+        <Literal xml:lang="en">A special powers to make things happen that would usually be impossible.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -824,8 +1126,13 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#SuperStrength</IRI>
+        <IRI>#SuperSoldier</IRI>
         <Literal xml:lang="en">User has more strength, flighting skills, invulnerability ans smarter than normal people.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SuperStrength</IRI>
+        <Literal xml:lang="en">User has more strength and invulnerable.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>

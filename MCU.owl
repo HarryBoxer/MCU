@@ -148,9 +148,6 @@
         <NamedIndividual IRI="#Magic"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Mantis"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Nebula"/>
     </Declaration>
     <Declaration>
@@ -363,10 +360,6 @@
     <ClassAssertion>
         <Class IRI="#Power"/>
         <NamedIndividual IRI="#Magic"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#MCUSuperheroes"/>
-        <NamedIndividual IRI="#Mantis"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
@@ -899,9 +892,34 @@ Captain America&apos;s shield was invented by Haward Stark or Iron Man&apos;s fa
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#originOfHero"/>
+        <NamedIndividual IRI="#Gamora"/>
+        <Literal>Gamora is a former Zehoberei assassin and a former member of the Guardians of the Galaxy. She became the adopted daughter of Thanos.. She served him for years before betraying him in an attempt to free herself from his ways. She was hired to steal the Orb, and became caught up in the Quest for the Orb, becoming friends with the other members of the Guardians of the Galaxy.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#realname"/>
         <NamedIndividual IRI="#Gamora"/>
         <Literal>Gamora</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actorname"/>
+        <NamedIndividual IRI="#Groot"/>
+        <Literal>Vin Diesel</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlive"/>
+        <NamedIndividual IRI="#Groot"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originOfHero"/>
+        <NamedIndividual IRI="#Groot"/>
+        <Literal>Groot is a sentient, tree-like individual and the accomplice of Rocket Raccoon. Together, the pair had traveled the galaxy picking up bounties until they got caught up while they were stealing the Orb. Since that situa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#realname"/>
+        <NamedIndividual IRI="#Groot"/>
+        <Literal>Groot</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#year"/>
@@ -912,6 +930,46 @@ Captain America&apos;s shield was invented by Haward Stark or Iron Man&apos;s fa
         <DataProperty IRI="#year"/>
         <NamedIndividual IRI="#GuardianOfTheGalaxyVol2"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actorname"/>
+        <NamedIndividual IRI="#Hawkeye"/>
+        <Literal>Jeremy Renner</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlive"/>
+        <NamedIndividual IRI="#Hawkeye"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originOfHero"/>
+        <NamedIndividual IRI="#Hawkeye"/>
+        <Literal>Barton never finished high school but developed a talent for marksmanship, mainly with a bow and arrow. Later in his life, Barton had met Laura who he eventually married and had three children with. Barton was handpicked by Nick Fury for his skills, becoming one of S.H.I.E.L.D.&apos;s most skilled agents. Later on, when Nick Fury has intended to assemble many heroes and found the Avengers group. Barton is one of the choices.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#realname"/>
+        <NamedIndividual IRI="#Hawkeye"/>
+        <Literal>Clint Barton</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actorname"/>
+        <NamedIndividual IRI="#IronMan"/>
+        <Literal>Robert Downey Junior</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlive"/>
+        <NamedIndividual IRI="#IronMan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originOfHero"/>
+        <NamedIndividual IRI="#IronMan"/>
+        <Literal>Tony Stark was a billionaire industrialist, a founding member of the Avengers, and the former CEO of Stark Industries. Stark was self-described as a genius, billionaire, playboy, and philanthropist. he was kidnapped by the Ten Rings in Afghanistan while demonstrating a fleet of Jericho missiles. With his life on the line, Stark created an armored suit which he used to escape his captors. Upon returning home, he utilized several more armors to use against terrorists, as well as Obadiah Stane who turned against Stark. Stark enjoyed the fame that came with his new secret identity and decided to share it with the world, publicly revealing himself as Iron Man.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#realname"/>
+        <NamedIndividual IRI="#IronMan"/>
+        <Literal>Tony Stark</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#year"/>
@@ -932,6 +990,26 @@ Captain America&apos;s shield was invented by Haward Stark or Iron Man&apos;s fa
         <DataProperty IRI="#powerDetail"/>
         <NamedIndividual IRI="#LightSpeedFlight"/>
         <Literal>User can fly as fast as the speed of light.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actorname"/>
+        <NamedIndividual IRI="#Loki"/>
+        <Literal>Tom Hiddleston</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlive"/>
+        <NamedIndividual IRI="#Loki"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originOfHero"/>
+        <NamedIndividual IRI="#Loki"/>
+        <Literal>Odin took Loki to Asgard and raised by him and Frigga as an Asgardian prince, along with Thor. Many times Loki caused a lot of troubles and mischiefs such as the Newyork event that he tried to rule all over the world but failed. Later on, when Hela his sister wanted to rule over the 9 realms. Loki turned over a new leaf and be a good person to help Thor defeated Hela.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#realname"/>
+        <NamedIndividual IRI="#Loki"/>
+        <Literal>Loki Laufeyeon</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#powerDetail"/>
@@ -1022,6 +1100,10 @@ Captain America&apos;s shield was invented by Haward Stark or Iron Man&apos;s fa
         <ObjectProperty IRI="#hasShownInMovie"/>
         <Class IRI="#MCUMovie"/>
     </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#actorname"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
     <DataPropertyDomain>
         <DataProperty IRI="#actorname"/>
         <Class IRI="#MCUSuperheroes"/>

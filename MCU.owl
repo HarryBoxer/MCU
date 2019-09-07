@@ -231,9 +231,6 @@
     <Declaration>
         <NamedIndividual IRI="#Vision"/>
     </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#WinterSoldier"/>
-    </Declaration>
     <DisjointClasses>
         <Class IRI="#MCUSuperheroes"/>
         <Class IRI="#Power"/>
@@ -481,10 +478,6 @@
     <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
         <NamedIndividual IRI="#Vision"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#MCUSuperheroes"/>
-        <NamedIndividual IRI="#WinterSoldier"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#firstIntroduction"/>

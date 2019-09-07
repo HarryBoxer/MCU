@@ -124,6 +124,9 @@
         <NamedIndividual IRI="#Hawkeye"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#Illusion"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#IronMan"/>
     </Declaration>
     <Declaration>
@@ -190,7 +193,13 @@
         <NamedIndividual IRI="#SuperStrength"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#SupersonicSpeeds"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Telekinesis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Telepathy"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#TheAvengers1"/>
@@ -324,6 +333,10 @@
         <NamedIndividual IRI="#Hawkeye"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#Illusion"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
         <NamedIndividual IRI="#IronMan"/>
     </ClassAssertion>
@@ -413,7 +426,15 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Power"/>
+        <NamedIndividual IRI="#SupersonicSpeeds"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
         <NamedIndividual IRI="#Telekinesis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#Telepathy"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MCUMovie"/>
@@ -832,6 +853,11 @@
         <NamedIndividual IRI="#Thor1"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#Loki"/>
+        <NamedIndividual IRI="#Illusion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasShownInMovie"/>
         <NamedIndividual IRI="#Loki"/>
         <NamedIndividual IRI="#AvengersEndgame"/>
@@ -860,6 +886,126 @@
         <ObjectProperty IRI="#hasShownInMovie"/>
         <NamedIndividual IRI="#Loki"/>
         <NamedIndividual IRI="#ThorTheDarkWorld"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#firstIntroduction"/>
+        <NamedIndividual IRI="#Nebula"/>
+        <NamedIndividual IRI="#GuardianOfTheGalaxyVol1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#Nebula"/>
+        <NamedIndividual IRI="#SkilledFigther"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#Nebula"/>
+        <NamedIndividual IRI="#AvengersEndgame"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#Nebula"/>
+        <NamedIndividual IRI="#AvengersInfinityWar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#Nebula"/>
+        <NamedIndividual IRI="#GuardianOfTheGalaxyVol1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#Nebula"/>
+        <NamedIndividual IRI="#GuardianOfTheGalaxyVol2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#firstIntroduction"/>
+        <NamedIndividual IRI="#QuickSilver"/>
+        <NamedIndividual IRI="#CaptainAmericaTheWinterSoldier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#QuickSilver"/>
+        <NamedIndividual IRI="#SupersonicSpeeds"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#QuickSilver"/>
+        <NamedIndividual IRI="#AvengersAgeOfUltron"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#QuickSilver"/>
+        <NamedIndividual IRI="#CaptainAmericaTheWinterSoldier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#firstIntroduction"/>
+        <NamedIndividual IRI="#Rocket"/>
+        <NamedIndividual IRI="#GuardianOfTheGalaxyVol1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#Rocket"/>
+        <NamedIndividual IRI="#AvengersEndgame"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#Rocket"/>
+        <NamedIndividual IRI="#AvengersInfinityWar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#Rocket"/>
+        <NamedIndividual IRI="#GuardianOfTheGalaxyVol1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#Rocket"/>
+        <NamedIndividual IRI="#GuardianOfTheGalaxyVol2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#firstIntroduction"/>
+        <NamedIndividual IRI="#ScarletWitch"/>
+        <NamedIndividual IRI="#CaptainAmericaTheWinterSoldier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#ScarletWitch"/>
+        <NamedIndividual IRI="#Flying"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#ScarletWitch"/>
+        <NamedIndividual IRI="#Telekinesis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#ScarletWitch"/>
+        <NamedIndividual IRI="#Telepathy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#ScarletWitch"/>
+        <NamedIndividual IRI="#AvengersAgeOfUltron"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#ScarletWitch"/>
+        <NamedIndividual IRI="#AvengersEndgame"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#ScarletWitch"/>
+        <NamedIndividual IRI="#AvengersInfinityWar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#ScarletWitch"/>
+        <NamedIndividual IRI="#CaptainAmericaCivilWar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasShownInMovie"/>
+        <NamedIndividual IRI="#ScarletWitch"/>
+        <NamedIndividual IRI="#CaptainAmericaTheWinterSoldier"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#year"/>
@@ -1320,7 +1466,7 @@ Captain America&apos;s shield was invented by Haward Stark or Iron Man&apos;s fa
     <DataPropertyAssertion>
         <DataProperty IRI="#powerDetail"/>
         <NamedIndividual IRI="#SuperStrength"/>
-        <Literal>User has more strength, flighting skills, invulnerability ans smarter than normal people.</Literal>
+        <Literal>User has more strength, fighting skills, invulnerability.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#year"/>
@@ -1582,6 +1728,11 @@ Captain America&apos;s shield was invented by Haward Stark or Iron Man&apos;s fa
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#SuperStrength</IRI>
         <Literal xml:lang="en">User has more strength and invulnerable.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SupersonicSpeeds</IRI>
+        <Literal xml:lang="en">User has the ability to move at supersonic speeds</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>

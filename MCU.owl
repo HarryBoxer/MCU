@@ -148,9 +148,6 @@
         <NamedIndividual IRI="#Magic"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Nebula"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#PhotonEnergy"/>
     </Declaration>
     <Declaration>
@@ -164,9 +161,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#ScarletWitch"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Shuri"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#SizeManipulation"/>
@@ -224,9 +218,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Vision"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#WinterSoldier"/>
     </Declaration>
     <DisjointClasses>
         <Class IRI="#MCUSuperheroes"/>
@@ -365,10 +356,6 @@
         <NamedIndividual IRI="#Magic"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#MCUSuperheroes"/>
-        <NamedIndividual IRI="#Nebula"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Power"/>
         <NamedIndividual IRI="#PhotonEnergy"/>
     </ClassAssertion>
@@ -387,10 +374,6 @@
     <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
         <NamedIndividual IRI="#ScarletWitch"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#MCUSuperheroes"/>
-        <NamedIndividual IRI="#Shuri"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Power"/>
@@ -467,10 +450,6 @@
     <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
         <NamedIndividual IRI="#Vision"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#MCUSuperheroes"/>
-        <NamedIndividual IRI="#WinterSoldier"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#firstIntroduction"/>
@@ -1209,6 +1188,66 @@ Captain America&apos;s shield was invented by Haward Stark or Iron Man&apos;s fa
         <Literal>User can release a very powerful beam out of their hands.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#actorname"/>
+        <NamedIndividual IRI="#QuickSilver"/>
+        <Literal>Aaron Taylor-Johnson</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlive"/>
+        <NamedIndividual IRI="#QuickSilver"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originOfHero"/>
+        <NamedIndividual IRI="#QuickSilver"/>
+        <Literal>Pietro Maximoff was a native of Sokovia who grew up with his fraternal twin sister, Wanda. The country, which was embroiled in constant war and strife, became the base of operations for a HYDRA cell operated by Wolfgang von Strucker, who recruited Pietro and Wanda to take part in a series of tests involving the Scepter, giving the twins superpowers. While his sister received a number of mental abilities, Pietro acquired the ability to move at supersonic speeds and other physical features.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#realname"/>
+        <NamedIndividual IRI="#QuickSilver"/>
+        <Literal>Pietro Maximoff</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actorname"/>
+        <NamedIndividual IRI="#Rocket"/>
+        <Literal>Bradley Cooper</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlive"/>
+        <NamedIndividual IRI="#Rocket"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originOfHero"/>
+        <NamedIndividual IRI="#Rocket"/>
+        <Literal>Subject: 89P13 was recovered by alien scientists and brought to the Halfworld planet in the Keystone Quadrant star system, where he was genetically and cybernetically enhanced so that he was given sentient levels of intelligence. However, years of abuse and repetitive genetic rewrite caused him to develop a vain and chaotic personality, driving him into becoming a gun slinging mercenary, calling himself Rocket.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#realname"/>
+        <NamedIndividual IRI="#Rocket"/>
+        <Literal>89p13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actorname"/>
+        <NamedIndividual IRI="#ScarletWitch"/>
+        <Literal>Elizabeth Olsen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlive"/>
+        <NamedIndividual IRI="#ScarletWitch"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originOfHero"/>
+        <NamedIndividual IRI="#ScarletWitch"/>
+        <Literal>Wanda Maximoff is a native of Sokovia who grew up with her twin brother, Pietro. In an effort to help purge their country of strife, the twins joined HYDRA and agreed to undergo experiments with the Scepter under the supervision of Wolfgang von Strucker, and received superpowers as a result.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#realname"/>
+        <NamedIndividual IRI="#ScarletWitch"/>
+        <Literal>Wanda Maximoff</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#powerDetail"/>
         <NamedIndividual IRI="#SizeManipulation"/>
         <Literal>The power can alter user size, which allows the user to compress force and energy. User can shrink down to the size of an ant, but can also grow up to 65 ft.</Literal>
@@ -1219,6 +1258,26 @@ Captain America&apos;s shield was invented by Haward Stark or Iron Man&apos;s fa
         <Literal>Good at hand to hand combat fighthing.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#actorname"/>
+        <NamedIndividual IRI="#SpiderMan"/>
+        <Literal>Tom Holland</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlive"/>
+        <NamedIndividual IRI="#SpiderMan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originOfHero"/>
+        <NamedIndividual IRI="#SpiderMan"/>
+        <Literal>Peter Parker is a high school student who gained spider-like abilities, fighting crime across New York City as the alter ego Spider-Man, hoping someday, he will live up to his heroes in the Avengers. While Parker juggled all his continued superhero duties with the demands of his high-school life, he was approached by Tony Stark who recruited Spider-Man to join the Avengers Civil War.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#realname"/>
+        <NamedIndividual IRI="#SpiderMan"/>
+        <Literal>Peter Parker</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#year"/>
         <NamedIndividual IRI="#SpiderManFarFromHome"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2019</Literal>
@@ -1227,6 +1286,26 @@ Captain America&apos;s shield was invented by Haward Stark or Iron Man&apos;s fa
         <DataProperty IRI="#year"/>
         <NamedIndividual IRI="#SpiderManHomeComing"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actorname"/>
+        <NamedIndividual IRI="#StarLord"/>
+        <Literal>Chris Pratt</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlive"/>
+        <NamedIndividual IRI="#StarLord"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originOfHero"/>
+        <NamedIndividual IRI="#StarLord"/>
+        <Literal>Peter Jason Quill is a Celestial-human hybrid who was abducted from Earth by the Yondu Ravager Clan and afterward began building a reputation as the notorious intergalactic outlaw, nicknamed Star-Lord. In 2014, he decided to leave the Ravagers and operate individually, starting by stealing a precious artifact known as the Orb, unintentionally becoming a key player in the Quest for the Orb. Following his arrest, he forged an uneasy alliance with fellow inmates Gamora, Drax the Destroyer, Rocket Raccoon, and Groot, who together formed the Guardians of the Galaxy.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#realname"/>
+        <NamedIndividual IRI="#StarLord"/>
+        <Literal>Peter Quill</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#powerDetail"/>
@@ -1249,9 +1328,69 @@ Captain America&apos;s shield was invented by Haward Stark or Iron Man&apos;s fa
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2012</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#actorname"/>
+        <NamedIndividual IRI="#TheHulk"/>
+        <Literal>Mark Ruffalo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlive"/>
+        <NamedIndividual IRI="#TheHulk"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originOfHero"/>
+        <NamedIndividual IRI="#TheHulk"/>
+        <Literal>Bruce Banner is a renowned scientist and a founding member of the Avengers. As someone who was highly respected for his work regarding biochemistry, nuclear physics, and gamma radiation, he was commissioned by Thaddeus Ross to recreate the Super Soldier Serum which created Captain America, although Ross elected not to inform Banner what he was creating. However, when exposed to high levels of gamma radiation instead of vita radiation went awry, the mild-mannered scientist had found that when angered, provoked or excited, he would transform into the huge, rage-fueled, nearly mindless creature known as Hulk.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#realname"/>
+        <NamedIndividual IRI="#TheHulk"/>
+        <Literal>Bruce Banner</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#year"/>
         <NamedIndividual IRI="#TheIncredibleHulk"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2008</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actorname"/>
+        <NamedIndividual IRI="#TheWasp"/>
+        <Literal>Evangeline Lilly</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlive"/>
+        <NamedIndividual IRI="#TheWasp"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originOfHero"/>
+        <NamedIndividual IRI="#TheWasp"/>
+        <Literal>Hope van Dyne is the daughter of Hank Pym and Janet van Dyne and a former board member of the Pym Technologies. When Darren Cross attempted to create and sell a new weapon based on her father&apos;s Ant-Man Suit, van Dyne reunited with her father and, along with Scott Lang who succeeded the Ant-Man Suit.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#realname"/>
+        <NamedIndividual IRI="#TheWasp"/>
+        <Literal>Hope Van Dyne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actorname"/>
+        <NamedIndividual IRI="#Thor"/>
+        <Literal>Chris Hemsworth</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlive"/>
+        <NamedIndividual IRI="#Thor"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originOfHero"/>
+        <NamedIndividual IRI="#Thor"/>
+        <Literal>Thor Odinson is the Asgardian God of Thunder, the former king of Asgard and New Asgard, and a founding member of the Avengers. When his irresponsible and impetuous behavior reignited conflict between Asgard and Jotunheim, Thor was denied the right to become king, stripped of his power, and banished to Earth by Odin. Thor redeemed himself in his father&apos;s eyes and was granted his power once more, which he then used to defeat Loki&apos;s schemes of genocide.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#realname"/>
+        <NamedIndividual IRI="#Thor"/>
+        <Literal>Thor Odinson</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#year"/>
@@ -1267,6 +1406,26 @@ Captain America&apos;s shield was invented by Haward Stark or Iron Man&apos;s fa
         <DataProperty IRI="#year"/>
         <NamedIndividual IRI="#ThorTheDarkWorld"/>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2013</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actorname"/>
+        <NamedIndividual IRI="#Vision"/>
+        <Literal>Paul Bettany</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlive"/>
+        <NamedIndividual IRI="#Vision"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#originOfHero"/>
+        <NamedIndividual IRI="#Vision"/>
+        <Literal>Vision was an android who possessed a synthetic Vibranium body created by Ultron and Helen Cho, along with the powerful artifact known as the Mind Stone. Originally conceived as the perfect form for Ultron, the body was stolen by the Avengers, after which it was repurposed by Tony Stark and Bruce Banner, who uploaded the remnants of Stark&apos;s personal A.I. J.A.R.V.I.S. into it.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#realname"/>
+        <NamedIndividual IRI="#Vision"/>
+        <Literal>Vision</Literal>
     </DataPropertyAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#firstIntroduction"/>

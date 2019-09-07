@@ -106,9 +106,6 @@
         <NamedIndividual IRI="#Durability"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Falcon"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual IRI="#Flying"/>
     </Declaration>
     <Declaration>
@@ -310,10 +307,6 @@
     <ClassAssertion>
         <Class IRI="#Power"/>
         <NamedIndividual IRI="#Durability"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#MCUSuperheroes"/>
-        <NamedIndividual IRI="#Falcon"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Power"/>
@@ -894,6 +887,21 @@ Captain America&apos;s shield was invented by Haward Stark or Iron Man&apos;s fa
         <DataProperty IRI="#powerDetail"/>
         <NamedIndividual IRI="#Flying"/>
         <Literal>User can floating in the air.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#actorname"/>
+        <NamedIndividual IRI="#Gamora"/>
+        <Literal>Zoe Saldana</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isAlive"/>
+        <NamedIndividual IRI="#Gamora"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#realname"/>
+        <NamedIndividual IRI="#Gamora"/>
+        <Literal>Gamora</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#year"/>

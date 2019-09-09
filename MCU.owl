@@ -118,6 +118,9 @@
         <NamedIndividual IRI="#Gamora"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#GravityMine"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#Groot"/>
     </Declaration>
     <Declaration>
@@ -148,7 +151,13 @@
         <NamedIndividual IRI="#LaserBeam"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#LiftingMjølnir"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#LightSpeedFlight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LightningManipulation"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Loki"/>
@@ -164,6 +173,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#QuickSilver"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RegenerativeHealing"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Rocket"/>
@@ -196,6 +208,9 @@
         <NamedIndividual IRI="#StoreKineticEnergy"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#SuperAgility"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#SuperLeaps"/>
     </Declaration>
     <Declaration>
@@ -212,6 +227,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Telepathy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Teleportation"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#TheAvengers1"/>
@@ -343,6 +361,10 @@
         <NamedIndividual IRI="#Gamora"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#GravityMine"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
         <NamedIndividual IRI="#Groot"/>
     </ClassAssertion>
@@ -384,7 +406,15 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Power"/>
+        <NamedIndividual IRI="#LiftingMjølnir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
         <NamedIndividual IRI="#LightSpeedFlight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#LightningManipulation"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
@@ -405,6 +435,10 @@
     <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
         <NamedIndividual IRI="#QuickSilver"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#RegenerativeHealing"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MCUSuperheroes"/>
@@ -448,6 +482,10 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Power"/>
+        <NamedIndividual IRI="#SuperAgility"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
         <NamedIndividual IRI="#SuperLeaps"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -469,6 +507,10 @@
     <ClassAssertion>
         <Class IRI="#Power"/>
         <NamedIndividual IRI="#Telepathy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Power"/>
+        <NamedIndividual IRI="#Teleportation"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#MCUMovie"/>
@@ -721,6 +763,11 @@
         <NamedIndividual IRI="#Magic"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#DoctorStrange"/>
+        <NamedIndividual IRI="#Teleportation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasShownInMovie"/>
         <NamedIndividual IRI="#DoctorStrange"/>
         <NamedIndividual IRI="#AvengersEndgame"/>
@@ -986,6 +1033,11 @@
         <NamedIndividual IRI="#GuardianOfTheGalaxyVol1"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#Rocket"/>
+        <NamedIndividual IRI="#GravityMine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasShownInMovie"/>
         <NamedIndividual IRI="#Rocket"/>
         <NamedIndividual IRI="#AvengersEndgame"/>
@@ -1108,7 +1160,17 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasPower"/>
         <NamedIndividual IRI="#StarLord"/>
+        <NamedIndividual IRI="#Durability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#StarLord"/>
         <NamedIndividual IRI="#Flying"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#StarLord"/>
+        <NamedIndividual IRI="#GravityMine"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasShownInMovie"/>
@@ -1239,6 +1301,21 @@
         <ObjectProperty IRI="#hasPower"/>
         <NamedIndividual IRI="#Thor"/>
         <NamedIndividual IRI="#Durability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#Thor"/>
+        <NamedIndividual IRI="#LightningManipulation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#Thor"/>
+        <NamedIndividual IRI="#RegenerativeHealing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasPower"/>
+        <NamedIndividual IRI="#Thor"/>
+        <NamedIndividual IRI="#SuperAgility"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasPower"/>
@@ -1477,6 +1554,11 @@ Captain America&apos;s shield was invented by Haward Stark or Iron Man&apos;s fa
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2019</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#powerDetail"/>
+        <NamedIndividual IRI="#ClingToWalls"/>
+        <Literal>User has ability to cling and climb the walls based on distance-dependent interaction between user&apos;s body and the surfaces.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
         <NamedIndividual IRI="#DoctorStrange"/>
         <Literal>Benedict Cumberbatch</Literal>
@@ -1532,6 +1614,11 @@ Captain America&apos;s shield was invented by Haward Stark or Iron Man&apos;s fa
         <Literal>Gamora</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#powerDetail"/>
+        <NamedIndividual IRI="#GravityMine"/>
+        <Literal>A device that could exert greater amounts of the force of gravity on a designated object and gravitate it towards itself.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
         <NamedIndividual IRI="#Groot"/>
         <Literal>Vin Diesel</Literal>
@@ -1582,6 +1669,11 @@ Captain America&apos;s shield was invented by Haward Stark or Iron Man&apos;s fa
         <Literal>Clint Barton</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#powerDetail"/>
+        <NamedIndividual IRI="#Illusion"/>
+        <Literal>User can make other people see unreal visions that the user creates such as fake face or fake things.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
         <NamedIndividual IRI="#IronMan"/>
         <Literal>Robert Downey Junior</Literal>
@@ -1618,8 +1710,23 @@ Captain America&apos;s shield was invented by Haward Stark or Iron Man&apos;s fa
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#powerDetail"/>
+        <NamedIndividual IRI="#LaserBeam"/>
+        <Literal>User can release very powerful and damageable beam.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerDetail"/>
+        <NamedIndividual IRI="#LiftingMjølnir"/>
+        <Literal>User is worthy to lift and use Mjølnir.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerDetail"/>
         <NamedIndividual IRI="#LightSpeedFlight"/>
         <Literal>User can fly as fast as the speed of light.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerDetail"/>
+        <NamedIndividual IRI="#LightningManipulation"/>
+        <Literal>This power allows user to summon a lightning bolt from the surrounding skyline or atmosphere and redirect it towards the target.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
@@ -1643,8 +1750,18 @@ Captain America&apos;s shield was invented by Haward Stark or Iron Man&apos;s fa
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#powerDetail"/>
+        <NamedIndividual IRI="#Magic"/>
+        <Literal>A special powers to make things happen that would usually be impossible.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerDetail"/>
         <NamedIndividual IRI="#PhotonEnergy"/>
         <Literal>User can release a very powerful beam out of their hands.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerDetail"/>
+        <NamedIndividual IRI="#PlantControl"/>
+        <Literal>User can control trees and plants, using them to attack enemies, and appears to be resistant to fire.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
@@ -1665,6 +1782,11 @@ Captain America&apos;s shield was invented by Haward Stark or Iron Man&apos;s fa
         <DataProperty IRI="#realname"/>
         <NamedIndividual IRI="#QuickSilver"/>
         <Literal>Pietro Maximoff</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerDetail"/>
+        <NamedIndividual IRI="#RegenerativeHealing"/>
+        <Literal>User allows to immediately heals himself/herself in seconds.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
@@ -1747,6 +1869,12 @@ Captain America&apos;s shield was invented by Haward Stark or Iron Man&apos;s fa
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2017</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
+        <DataProperty IRI="#powerDetail"/>
+        <NamedIndividual IRI="#SpiderSense"/>
+        <Literal>User have a sixth sense like a spider that that alerts user to danger.
+\</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
         <DataProperty IRI="#actorname"/>
         <NamedIndividual IRI="#StarLord"/>
         <Literal>Chris Pratt</Literal>
@@ -1773,6 +1901,16 @@ Captain America&apos;s shield was invented by Haward Stark or Iron Man&apos;s fa
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#powerDetail"/>
+        <NamedIndividual IRI="#SuperAgility"/>
+        <Literal>User moves with incredible grace and speed.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerDetail"/>
+        <NamedIndividual IRI="#SuperLeaps"/>
+        <Literal>This power allowing user to leap great distances or great heights with precision.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerDetail"/>
         <NamedIndividual IRI="#SuperSoldier"/>
         <Literal>User has more strength, flighting skills, invulnerability ans smarter than normal people.</Literal>
     </DataPropertyAssertion>
@@ -1780,6 +1918,26 @@ Captain America&apos;s shield was invented by Haward Stark or Iron Man&apos;s fa
         <DataProperty IRI="#powerDetail"/>
         <NamedIndividual IRI="#SuperStrength"/>
         <Literal>User has more strength, fighting skills, invulnerability.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerDetail"/>
+        <NamedIndividual IRI="#SupersonicSpeeds"/>
+        <Literal>User has the ability to move at supersonic speeds</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerDetail"/>
+        <NamedIndividual IRI="#Telekinesis"/>
+        <Literal>The power that can manipulate and control the surrounded things.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerDetail"/>
+        <NamedIndividual IRI="#Telepathy"/>
+        <Literal>User can communicate and read people mind without speaking.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerDetail"/>
+        <NamedIndividual IRI="#Teleportation"/>
+        <Literal>This allows user to teleport at will.</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#year"/>
@@ -1886,6 +2044,11 @@ Captain America&apos;s shield was invented by Haward Stark or Iron Man&apos;s fa
         <NamedIndividual IRI="#Vision"/>
         <Literal>Vision</Literal>
     </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#powerDetail"/>
+        <NamedIndividual IRI="#WebShooting"/>
+        <Literal>User can shoot webs like a spider.</Literal>
+    </DataPropertyAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#firstIntroduction"/>
         <Class IRI="#MCUSuperheroes"/>
@@ -1989,13 +2152,33 @@ Captain America&apos;s shield was invented by Haward Stark or Iron Man&apos;s fa
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GravityMine</IRI>
+        <Literal xml:lang="en">A device that could exert greater amounts of the force of gravity on a designated object and gravitate it towards itself.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Illusion</IRI>
+        <Literal xml:lang="en">User can make other people see unreal visions that the user creates such as fake face or fake things.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#LaserBeam</IRI>
         <Literal xml:lang="en">User can release very powerful beam.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LiftingMjølnir</IRI>
+        <Literal xml:lang="en">User is worthy to lift and use Mjølnir.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#LightSpeedFlight</IRI>
         <Literal xml:lang="en">This power allows user to fly as fast as the speed of light.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LightningManipulation</IRI>
+        <Literal xml:lang="en">This power allows user to summon a lightning bolt from the surrounding skyline or atmosphere and redirect it towards the target.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2029,6 +2212,11 @@ Captain America&apos;s shield was invented by Haward Stark or Iron Man&apos;s fa
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RegenerativeHealing</IRI>
+        <Literal xml:lang="en">User allows to immediately heals himself/herself in seconds.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#SizeManipulation</IRI>
         <Literal xml:lang="en">This power can manipulate and change size.</Literal>
     </AnnotationAssertion>
@@ -2046,6 +2234,11 @@ Captain America&apos;s shield was invented by Haward Stark or Iron Man&apos;s fa
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#StoreKineticEnergy</IRI>
         <Literal xml:lang="en">This power can absorb and store kinetic energy in order to attck enermies later on.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SuperAgility</IRI>
+        <Literal xml:lang="en">User moves with incredible grace and speed.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -2071,6 +2264,16 @@ Captain America&apos;s shield was invented by Haward Stark or Iron Man&apos;s fa
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Telekinesis</IRI>
         <Literal xml:lang="en">The power that can manipulate and control the surrounded things.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Telepathy</IRI>
+        <Literal xml:lang="en">User can communicate with people they need. Also can read mind of other people too.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Teleportation</IRI>
+        <Literal xml:lang="en">This allows user to teleport at will.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
